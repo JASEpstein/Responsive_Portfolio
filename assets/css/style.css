@@ -200,3 +200,61 @@ input {
 .footer p {
     font-size: 10px;
 }
+
+@media screen and (max-width: 980px) {
+    .portfoliobox,
+    .contactbox,
+    .aboutbox {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfoliobox,
+    .contactbox,
+    .aboutbox {
+        width: 500px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    .portfoliobox,
+    .contactbox,
+    .aboutbox {
+        width: 360px;
+    }
+
+    h1 {
+        display: block;
+        background: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin: 10% 20%;
+        color: #777777;
+        padding-right: 3px;
+    }
+
+    .headshot {
+        float: left;
+        display: block;
+    }
+
+    .aboutcontent p {
+        padding-left: 221px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        color: #777777;
+        /* Needs to be formatted under photo*/
+    }
+
+}
